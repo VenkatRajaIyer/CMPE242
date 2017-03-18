@@ -1,5 +1,4 @@
-# CMPE242
-Work
+# Interfacing LED to ARM11
 
 Steps to Build the device driver and executable files
 1) As this project deals with manipulation of character device drivers, go to the character device driver folder under /opt.
@@ -28,6 +27,10 @@ Steps to Transfer the files to the ARM board
 2) Plug in the USB Flash drive to the USB port1 in the ARM board
 
 3) You might require Putty to transfer the file. If you dont have it, download it by typing the following in the terminal
-    sudo apt-get install s
+    sudo apt-get install putty
 
-4) Typ
+4) Configure putty settings and open the connnection.
+
+5) Type in ./app_file in putty to execute the file
+
+You should now find the program running on the board.

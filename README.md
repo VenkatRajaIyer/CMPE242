@@ -15,7 +15,7 @@ Steps to Build the device driver and executable files
 
 7) Configure it to build as a module
 
-8) In the command prompt, type in 'make device_driver_filename.ko'
+8) In the command prompt, type in 'make modules'
 
 9) Navigate to the application's folder (examples folder) and add the application file which is present in GitHub there.
 
@@ -31,6 +31,8 @@ Steps to Transfer the files to the ARM board
 
 4) Configure putty settings and open the connnection.
 
-5) Type in ./app_file in putty to execute the file
+5) Type in insmod device_driver.ko to instert the module into the Kernel.
+
+6) Type in ./app_file in putty to execute the file
 
 You should now find the program running on the board.
